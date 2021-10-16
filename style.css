@@ -1,0 +1,120 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+body {
+    font-family: ‘Roboto Mono’, monospace;
+}
+
+nav {
+    width: 73%;
+    display: inline-block;
+    margin-left: auto;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+ul img {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0px;
+    float: right;
+    width: 50%;
+    margin-left: auto;
+}
+
+.heroImg {
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    font-size: 18px;
+}
+
+.containerBlockleft {
+    width: 50%;
+    padding-top: 100px;
+}
+
+.containerBlockright {
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+
+.button {
+    text-align: center;
+    border-radius: 4px;
+}
+
+.flexContainer {
+    display: flex;
+    margin-top: 10%;;
+    flex-direction: row;
+}
+
+.workGrid {
+    display: grid;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "PuppyLoveImage SFJazzImage"
+      "PuppyLoveText SFJazzText"; 
+}
+
+.PuppyLoveImage {
+    grid-area: PuppyLoveImage;
+}
+
+.PuppyLoveText {
+    grid-area: PuppyLoveText;
+}
+
+.SFJazzImage {
+    grid-area: SFJazzImage;
+}
+
+.SFJazzText {
+    grid-area: SFJazzText;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 50x;
+}
+
+footer p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 20%;
+    text-align: center;
+}
+
+footer img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px; 
+    display: inline-block;
+}
