@@ -15,6 +15,13 @@ nav {
     vertical-align: top;
 }
 
+.fade {
+    margin: 50px;
+    padding: 50px;
+    background-color: white;
+    opacity: 1;
+  }
+
 .logo {
     width: 23%;
     padding: 1%;
@@ -52,6 +59,14 @@ ul {
 
 .containerBlockleft {
     width: 50%;
+    padding-top: 100px;
+}
+
+.mySkills {
+    padding-top: 100px;
+}
+
+.work {
     padding-top: 100px;
 }
 
