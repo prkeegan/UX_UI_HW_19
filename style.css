@@ -1,11 +1,17 @@
+body {
+    font-family: ‘Roboto Mono’, monospace;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
     width: 100%;
 }
 
-body {
-    font-family: ‘Roboto Mono’, monospace;
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
 }
 
 nav {
@@ -13,19 +19,6 @@ nav {
     display: inline-block;
     margin-left: auto;
     vertical-align: top;
-}
-
-.fade {
-    margin: 50px;
-    padding: 50px;
-    background-color: white;
-    opacity: 1;
-  }
-
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
 }
 
 li {
@@ -55,10 +48,6 @@ ul {
     padding: 10px;
     display: flex;
     font-size: 18px;
-}
-
-.contentDiv {
-    position: relative;
 }
 
 .containerBlockleft {
@@ -101,9 +90,12 @@ ul {
 }
 
 
-.button {
+button {
     text-align: center;
     border-radius: 4px;
+    color: white;
+    background-color: black;
+    padding: 15px;
 }
 
 .flexContainer {
@@ -139,8 +131,10 @@ ul {
 }
 
 footer {
-    background-color: #ffffff;
-    padding: 50x;
+    background-color: black;
+    /* padding: 50x; */
+    color: white;
+    padding-top: 10px;
 }
 
 footer p {
@@ -157,4 +151,5 @@ footer img {
     margin-right: auto;
     width: 20px; 
     display: inline-block;
+    text-align: center;
 }
